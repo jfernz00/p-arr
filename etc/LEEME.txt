@@ -1,0 +1,30 @@
+Practica P-ARR
+
+Alumno: Javier Fernandez Zamora
+
+Horas dedicadas: 12
+
+Problemas surgidos al realizar la practica:
+
+Respuestas a la preguntas:
+
+	
+Apartado 030102:
+
+	Ejercicio 02:
+		Lo que ocurre es que los arrays empiezan a contarse desde la posicion 0. Por eso no sale la primera posicion del array y da la excepcion.La forma correcta del for seria for(int i=0 ; i < arrayEnteros.length ; i++) porque los arryas empiezan en cero y el array tiene 10 posiciones siendo la ultima arrayEnteros[9].
+
+Apartado 030202:
+
+	Ejercicio 01:
+		Cuando se realiza la copia del objeto persona lo que se hace es que personas y copia hagan referencia a mismo objeto, y por tanto si se modifica alguno de los elementos en copia tambien lo hara en personas.
+
+	Ejercicio 02:
+		En este caso se copia el contenido del objeto personas y no su referencia.Eso hace que copia y personas hagan referencia a distintos objetos y sean independientes uno del otro.
+	
+	Ejercicio 03:
+		Se han pasado los parámetros del objeto persona al metodo recibirParametros(). Éste, ha cambiado el valor y la posicion de memoria del primer elemento del array.
+
+	Ejercicio 04:
+		Ocurre una excepcion cuando se invoca a personas en recibirParametrosErroneo() porque se habia inicializado con null antes. Eso quiere decir que no se habia apuntado a ningun objeto desde el principio.
+
